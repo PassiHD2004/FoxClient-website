@@ -171,6 +171,15 @@
             font-weight: 500;
             font-family: "epilogue", sans-serif;
             font-size: xx-small;
+            text-align: center;
+        }
+
+        h10 {
+          color: grey;
+          font-weight: 500;
+          font-family: "epilogue", sans-serif;
+          font-size: xx-small;
+          text-align: end;
         }
         ul {
             color: #6c7086;
@@ -205,6 +214,8 @@
 <div class="mod-summary">
   <h1>FoxClient</h1>
 <h3>A Fabric (and Quilt) Mod that changes the look of the Minecraft UI and adds some features.</h3>
+
+<button id="github-button">Go to GitHub Project</button>
 
 <p>congrats: you have found my stupid way to make a empty line thing!</p>
 <h2>Features:</h2>
@@ -258,7 +269,6 @@ git submodule update --init --recursive
 <h7>Is there gonna be a forge version?</h7>
 <h6>NO <a href="https://github.com/FoxStudios/FoxClient/blob/main/forge.md">here's why</h6>
 
-<button id="github-button">Go to GitHub Project</button>
 <p>congrats: you have found my stupid way to make a empty line thing!</p>
 <h9>Copyright (C) 2023 FoxStudios</h9>
 </div>
@@ -268,6 +278,7 @@ git submodule update --init --recursive
   <h9 class="text-sm">© FoxClient 2021-2023</p>
 </footer>
 -->
+
 <script>
       const button = document.getElementById("github-button");
       button.addEventListener("click", function() {
